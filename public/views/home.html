@@ -1,0 +1,18 @@
+<h1> Upcoming Conference(s) </h1>
+<div id="Content" class="wrapper" ng-init="getData()">
+<div class="display-countdown">
+	<div class="row">
+		<div ng-repeat="countdown in countdownList" class="col-lg-3 conf-tile" ng-click="editConference(countdown)">
+			<div>{{countdown.abbr}}</div>
+			<div>{{ countdown.days }}<span>days</span></div>
+			<div>{{ countdown.hours }}<span>hours</span></div>
+			<div>{{ countdown.minutes }}<span>mins</span></div>
+			<div>{{ countdown.seconds }}<span>secs</span></div>
+		</div>
+	</div>
+	<div>
+		<p><strong>Last Submission: </strong>
+		{{lastSubmission.abbr}} - {{lastSubmission.date.getFullYear()}}-{{lastSubmission.date.getMonth() + 1}}-{{lastSubmission.date.getDate()}} ({{lastSubmission.duration}} days ago)</p>
+	</div>
+</div>
+</div>

@@ -1,0 +1,40 @@
+<h1>Create Conference Entry</h1>
+<div id="Content" class="wrapper">
+	<div class="bootstrap-iso">
+		<div class="jumbotron">
+		    <div class="container">
+		    	<div class="row">
+					<div class="col-md-3">
+						<label>Conference</label>
+					</div>
+					<div class="col-md-9">
+						<input type="text" data-ng-model="conference.name" ng-style="{'width': '-webkit-fill-available'}">
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-md-3">
+						<label>Short Name</label>
+					</div>
+					<div class="col-md-9">
+						<input type="text" data-ng-model="conference.abbr">
+					</div>
+				</div>
+				</br>
+				<div class="row">
+					<div class="col-md-3">
+						<label>Date</label>
+					</div>
+					<div class="col-md-9">
+						<datetimepicker data-ng-model="conference.date"></datetimepicker>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<button class="btn btn-success" ng-click="saveEntry()">Save</button>
+					</div>
+				</div>
+			</div> 
+		</div>
+	</div>
+</div>

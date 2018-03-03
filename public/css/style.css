@@ -1,0 +1,53 @@
+body {
+	color:#FFF; 
+	font-family: 'Open Sans', sans-serif;
+	top:0;
+	left:0;
+	background-color: #00b3ee;
+	/*background-image: url("../img/2.JPG");*/
+	position:absolute;
+	height:100%;
+	width:100%;
+	margin:0;
+	background-size:cover;
+}
+
+h1 {
+	font-size:68px;
+	letter-spacing:-2px;  
+	text-align:center; 
+	padding-top:30px;
+	font-weight:700;
+	font-family: 'Times New Roman';
+	text-shadow: 2px 2px rgba(12, 11, 11, 0.56);
+}
+
+.wrapper {
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+	z-index: 1;
+}
+
+.countdown {
+	text-align:center;
+}
+
+.jumbotron {
+	background-color: rgba(105,105,105,0.3);
+}
+
+.display-countdown {
+	font-size: 5rem;
+	font-weight: 100;
+}
+
+.container input {
+	color: black;
+}
+
+.conf-tile {
+	background-color: green;
+	text-align: center;
+	margin: 2rem;
+}
