@@ -1,5 +1,7 @@
 # countdown
 Conference countdown timer
-How to run
-    npm install
-    node server.js
+
+How to run:
+
+   * npm install
+   * node server.js
